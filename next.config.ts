@@ -1,12 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  // Remove these lines:
-  // output: 'export',
-  // basePath: '/your-base-path',
-  images: {
-    unoptimized: true, // Optional: Only needed if you're using static exports
+  experimental: {
+    turbo: {
+      rules: {
+        '*.svg': {
+          loaders: ['@svgr/webpack'],
+          as: '*.js',
+        },
+      },
+    },
   },
-};
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig
