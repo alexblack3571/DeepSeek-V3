@@ -1,47 +1,47 @@
-echo {
-echo   "name": "ai-coding-assistant",
-echo   "version": "0.1.0",
-echo   "private": true,
-echo   "type": "module",
-echo   "scripts": {
-echo     "dev": "next dev",
-echo     "build": "next build", 
-echo     "start": "next start",
-echo     "lint": "eslint"
-echo   },
-echo   "dependencies": {
-echo     "axios": "^1.13.2",
-echo     "dotenv": "^17.2.3",
-echo     "express": "^5.1.0",
-echo     "next": "16.0.4",
-echo     "react": "19.2.0",
-echo     "react-dom": "19.2.0"
-echo   },
-echo   "devDependencies": {
-echo     "@tailwindcss/postcss": "^4",
-echo     "@types/node": "^20.19.25",
-echo     "@types/react": "^19", 
-echo     "@types/react-dom": "^19",
-echo     "eslint": "^9",
-echo     "eslint-config-next": "16.0.4",
-echo     "nodemon": "^3.1.11",
-echo     "tailwindcss": "^4",
-echo     "typescript": "^5"
-echo   },
-echo   "engines": {
-echo     "node": ">=18"
-echo   },
-echo   "description": "AI Coding Assistant with DeepSeek integration",
-echo   "main": "index.js",
-echo   "repository": {
-echo     "type": "git",
-echo     "url": "git+https://github.com/alexblack3571/DeepSeek-V3.git"
-echo   },
-echo   "keywords": ["ai", "coding", "assistant", "deepseek"],
-echo   "author": "alexblack3571",
-echo   "license": "ISC",
-echo   "bugs": {
-echo     "url": "https://github.com/alexblack3571/DeepSeek-V3/issues"
-echo   },
-echo   "homepage": "https://github.com/alexblack3571/DeepSeek-V3#readme"
-echo } > package.json
+{
+  "name": "ai-coding-assistant",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "next": "16.0.4",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20.19.25",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.4",
+    "nodemon": "^3.1.11",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "description": "AI Coding Assistant with DeepSeek integration",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexblack3571/DeepSeek-V3.git"
+  },
+  "keywords": ["ai", "coding", "assistant", "deepseek"],
+  "author": "alexblack3571",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexblack3571/DeepSeek-V3/issues"
+  },
+  "homepage": "https://github.com/alexblack3571/DeepSeek-V3#readme"
+}
