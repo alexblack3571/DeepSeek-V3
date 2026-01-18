@@ -13,7 +13,7 @@
     "axios": "^1.13.2",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
-    "next": "16.0.4",
+    "next": "16.0.10",
     "react": "19.2.0",
     "react-dom": "19.2.0"
   },
@@ -37,7 +37,12 @@
     "type": "git",
     "url": "git+https://github.com/alexblack3571/DeepSeek-V3.git"
   },
-  "keywords": ["ai", "coding", "assistant", "deepseek"],
+  "keywords": [
+    "ai",
+    "coding",
+    "assistant",
+    "deepseek"
+  ],
   "author": "alexblack3571",
   "license": "ISC",
   "bugs": {
